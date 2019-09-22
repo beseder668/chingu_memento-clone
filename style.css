@@ -1,3 +1,6 @@
 /* imports all css from /css */
 
 @import url('css/reset.css');
+@import url('css/fonts.css');
+@import url('css/colors.css');
+@import url('css/layout.css');
