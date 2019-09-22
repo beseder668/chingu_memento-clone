@@ -1,0 +1,63 @@
+.o_nav_wrap {
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.o_nav_wrap > nav {
+    vertical-align: middle;
+}
+
+.o_nav_list {
+    display: flex;
+    justify-content: flex-start;
+    /* box-sizing: border-box; */
+    line-height: 100px;
+    margin-left: 40px;
+}
+
+.o_nav_link {
+    width: 50px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.o_nav_weather {
+    width: 150px;
+    text-align: center;
+    height: auto;
+    padding: 20px 20px 0 20px;
+    background-color: gold;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .o_nav_wrap {
+        display: block;
+        width: 100%;
+        /* height: 200px; */
+    }
+    
+    .o_nav_list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .o_nav_list:last-child {
+        margin: 0;
+    }
+
+    .o_nav_link {
+        width: auto;
+        display: inline-block;
+    }
+    
+    .o_nav_weather {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
