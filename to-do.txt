@@ -1,0 +1,14 @@
+to-do list for solo project:
+
+Features:
+[ ] - basic navigation (currently empty) 
+[ ] - chanching background each reload
+[ ] - location of background picture taken
+[ ] - quote of the day on the top
+[ ] - current date / time / timezone
+[ ] - changing greeting based on time of the day
+[ ] - weather forecast
+
+other:
+[x] - create git repository
+[ ] - upload to github pages or other (geran?)
