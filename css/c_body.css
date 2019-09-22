@@ -1,6 +1,19 @@
+
+
+
 .c_body_wrap {
     position: relative;
-    margin: 0 auto;
-    width: 100%;
+    width: 800px;
     height: 1vh;
+    text-align: center;
+}
+
+.c_body_btn {
+    /* width: 200px; */
+    padding: 20px 40px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(40, 40, 40, 0.2);
+    border: 0;
 }

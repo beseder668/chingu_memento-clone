@@ -6,15 +6,15 @@
 
 /* font effects */
 .b_shadow {
-    text-shadow: 0 0 3px rgb(30, 30, 30);
+    text-shadow: 0 3px 5px rgba(40, 40, 40, 0.7);;
 }
 
 /* font sizes */
 
 h1 {
-    font-size: 2.5rem;
-    line-height: 2.75rem;
-    font-weight: 800;
+    font-size: 8rem;
+    line-height: 8rem;
+    font-weight: 700;
 }
 
 .b_greet {
