@@ -1,0 +1,43 @@
+
+/* font colors */
+.b_white {
+    color: white;
+}
+
+/* font effects */
+.b_shadow {
+    text-shadow: 0 0 3px rgb(30, 30, 30);
+}
+
+/* font sizes */
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 800;
+}
+
+.b_greet {
+    font-size: 1.875rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.b_body {
+    font-size: 1.5rem;
+    line-height: 1.95rem;
+    font-weight: 600;
+}
+
+.b_button {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+
+.b_nav_link, 
+.b_footer {
+    font-size: 0.75rem;
+    /* line-height: 0.75rem; */
+    font-weight: 400;
+}
