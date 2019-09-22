@@ -8,18 +8,13 @@
     left: 0;
     bottom: 0;
     padding: 0 40px;
-    background-color: aqua;
+    background-color: transparent;
     line-height: 80px;
-}
-
-.o_footer_quote, .o_footer_bg-info {
-    flex-basis: 100%;
 }
 
 .o_footer_links {
     display: flex;
     justify-content: start;
-    flex-basis: 100%;
 }
 
 .o_footer_link {
@@ -40,12 +35,17 @@
         line-height: 50px;
     }
 
+    .o_footer_quote, .o_footer_bg-info {
+    flex-basis: 100%;
+    }
+
     .o_footer div {
         text-align: center;
     }
 
     .o_footer_links {
         justify-content: center;
+        flex-basis: 100%;
     }
 
 }

@@ -1,15 +1,28 @@
 
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+}
 
+.c_body_bg {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    background: url('../../chingu_soloProject/img/text-bg2.jpg') center no-repeat;
+    background-size: cover;
+}
 
 .c_body_wrap {
     position: relative;
     width: 800px;
-    height: 1vh;
+    height: auto;
+    /* height: 1vh; */
     text-align: center;
 }
 
 .c_body_btn {
-    /* width: 200px; */
     padding: 20px 40px;
     height: 60px;
     border-radius: 5px;
