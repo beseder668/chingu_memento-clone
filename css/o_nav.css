@@ -24,6 +24,10 @@
     list-style: none;
 }
 
+.o_nav_link:last-child {
+    margin-right: 0px;
+}
+
 .o_nav_weather {
     width: 150px;
     text-align: center;
