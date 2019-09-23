@@ -1,20 +1,23 @@
 .o_nav_wrap {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.o_nav_wrap > nav {
+/* .o_nav_wrap > nav {
     vertical-align: middle;
-}
+} */
 
 .o_nav_list {
     display: flex;
     justify-content: flex-start;
-    line-height: 100px;
+    line-height: 60px;
     margin-left: 40px;
 }
 
@@ -30,13 +33,14 @@
 
 .o_nav_weather {
     width: 150px;
+    height: 100%;
     text-align: center;
     height: auto;
     padding: 20px 20px 0 20px;
-    background-color: gold;
+    background-color: transparent;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 450px) {
     
     .o_nav_wrap {
         display: block;
@@ -59,7 +63,7 @@
     
     .o_nav_weather {
         display: block;
-        width: 100%;
+        /* width: 100%; */
         text-align: center;
     }
 }

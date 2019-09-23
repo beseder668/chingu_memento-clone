@@ -1,6 +1,6 @@
 .o_footer {
     width: 100%;
-    height: 80px;
+    height: 40px;
     position: absolute;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     bottom: 0;
     padding: 0 40px;
     background-color: transparent;
-    line-height: 80px;
+    line-height: 40px;
 }
 
 .o_footer_links {
@@ -28,15 +28,16 @@
     margin-right: 0px;
 }
 
-@media only screen and  (max-width: 1000px) {
+@media only screen and  (max-width: 600px) {
     
     .o_footer {
+        /* margin-top: 20%; */
         height: auto;
-        line-height: 50px;
+        line-height: 40px;
     }
 
     .o_footer_quote, .o_footer_bg-info {
-    flex-basis: 100%;
+    flex-basis: 50%;
     }
 
     .o_footer div {

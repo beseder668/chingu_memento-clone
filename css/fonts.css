@@ -4,6 +4,10 @@
     color: white;
 }
 
+.b_black {
+    color: rgb(40, 40, 40);
+}
+
 /* font effects */
 .b_shadow {
     text-shadow: 0 3px 5px rgba(40, 40, 40, 0.7);;
@@ -12,26 +16,25 @@
 /* font sizes */
 
 h1 {
-    font-size: 8rem;
-    line-height: 8rem;
-    font-weight: 700;
+    font-size: 9rem;
+    line-height: 9rem;
+    font-weight: 600;
 }
 
 .b_greet {
-    font-size: 1.875rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
     font-weight: 600;
 }
 
 .b_body {
     font-size: 1.5rem;
     line-height: 1.95rem;
-    font-weight: 600;
+    font-weight: 200;
 }
 
 .b_button {
     font-size: 0.875rem;
-    line-height: 1rem;
     font-weight: 600;
 }
 
@@ -39,4 +42,61 @@ h1 {
 .b_footer {
     font-size: 0.75rem;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 450px) {
+    
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .b_greet {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .b_body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) and (min-width: 600px) {
+    
+    h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .b_greet {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .b_body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    
+    h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    .b_greet {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .b_body {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
 }

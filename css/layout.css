@@ -2,26 +2,22 @@
     margin: 0 auto; 
 }
 
+.l_mt-45pc {
+    margin-top: 50%;
+}
+
 .l_mt-30pc {
-    margin-top: 15% !important;
+    margin-top: 30%;
 }
 
-.l_mt-200 {
-    margin-top: 200px;
+.l_mt-25pc {
+    margin-top: 25%;
 }
 
-.l_mt-80 {
-    margin-top: 80px;
+.l_mt-15pc {
+    margin-top: 15%;
 }
 
-.l_mt-40 {
-    margin-top: 40px;
-}
-
-.l_mt-20 {
-    margin-top: 20px;
-}
-
-.l_mt-10 {
-    margin-top: 10px;
+.l_mt-5pc {
+    margin-top: 5%;
 }
