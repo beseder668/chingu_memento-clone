@@ -50,8 +50,6 @@
 @media only screen and (min-width: 450px) and (max-width: 1000px) {
     
     .o_footer {
-        /* margin-top: 20%; */
-        /* display: block; */
         width: 100%;
         text-align: center;
         bottom: 10px;

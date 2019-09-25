@@ -3,7 +3,7 @@
     position: relative;
     width: 100%;
     background-color: skyblue;
-    /* background: url('https://source.unsplash.com/1920x1080/?mountains') center / cover no-repeat; */
+    background: url('https://source.unsplash.com/1920x1080/?mountains') center / cover no-repeat;
     background-size: cover;
     overflow: hidden;
 }
@@ -36,7 +36,6 @@
 
 .c_body_btn {
     cursor: pointer;
-    /* padding: 0 20px 0 40px; */
     width: 300px;
     margin-top: 4%;
     height: 60px;
@@ -68,7 +67,6 @@
     .c_body_wrap {
         width: 80%;
         height: 100%;
-        /* padding: 40% 0; */
     }
 
     .c_body_quote {
@@ -102,7 +100,6 @@
 
     .c_body_btn {
         width: auto;
-        /* margin-top: 20%; */
         height: 40px;
         padding: 0 5px;
         line-height: 40px;
