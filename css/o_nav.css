@@ -1,30 +1,28 @@
 .o_nav_wrap {
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     width: 100%;
-    height: 60px;
+    /* height: 100px; */
+    padding: 40px 40px 0 40px;
     background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-/* .o_nav_wrap > nav {
-    vertical-align: middle;
-} */
-
 .o_nav_list {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    line-height: 60px;
-    margin-left: 40px;
 }
 
 .o_nav_link {
-    width: 50px;
-    margin-right: 20px;
+    width: auto;
+    margin-right: 40px;
     list-style: none;
+}
+
+.o_nav_link a,
+.o_footer_link a {
+    text-decoration: none;
 }
 
 .o_nav_link:last-child {
@@ -32,38 +30,81 @@
 }
 
 .o_nav_weather {
-    width: 150px;
-    height: 100%;
-    text-align: center;
-    height: auto;
-    padding: 20px 20px 0 20px;
+    /* width: 50%; */
+    margin-top: -7px;
     background-color: transparent;
+    text-align: right;
 }
 
 @media only screen and (max-width: 450px) {
     
     .o_nav_wrap {
         display: block;
+        padding: 20px 40px;
         width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
     }
     
     .o_nav_list {
+        display: block;
         width: 100%;
-        justify-content: center;
+        text-align: center;
     }
 
-    .o_nav_list:last-child {
-        margin: 0;
-    }
-
-    .o_nav_link {
-        width: auto;
-        display: inline-block;
+    .o_nav_link:not(:last-child) {
+        height: auto;
+        margin: 0 0 10px 0;
     }
     
     .o_nav_weather {
         display: block;
-        /* width: 100%; */
+        width: 100%;
         text-align: center;
+        padding: 0;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+
+    .o_nav_wrap {
+        padding: 20px 40px 0 40px;
+    }
+    
+    .o_nav_list {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .o_nav_link:not(:last-child) {
+        height: auto;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .o_nav_wrap {
+        display: flex;
+        display: space-between;
+    }
+
+    .o_nav_list {
+        display: block;
+        width: 100%;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .o_nav_link {
+        height: 25px;
+        display: block;
+    }
+    
+    .o_nav_weather {
+        display: block;
+        padding: 0;
     }
 }
