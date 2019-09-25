@@ -30,7 +30,7 @@ h1 {
 .b_body {
     font-size: 1.5rem;
     line-height: 2.25rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .b_button {
@@ -41,7 +41,7 @@ h1 {
 .b_nav_link, 
 .b_footer {
     font-size: 0.75rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 450px) {
