@@ -6,42 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Momento clone</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="script" href="index.js">
 </head>
 <body class="c_body_bg">
     <div class="o_nav_wrap b_white">
         <nav>
             <ul class="o_nav_list">
-                <li class="o_nav_link b_nav_link">
+                <li class="o_nav_link b_nav_link b_shadow">
+                    Chingu pre-work solo project
+                </li>
+                <li class="o_nav_link b_nav_link b_shadow">
+                    Author: German Sverdlov, Moscow, Russia
+                </li>
+                <!-- <li class="o_nav_link b_nav_link b_shadow">
                     <a href="#">Logo</a>
                 </li>
-                <li class="o_nav_link b_nav_link">
+                <li class="o_nav_link b_nav_link b_shadow">
                     <a href="#">Plus</a>
                 </li>
-                <li class="o_nav_link b_nav_link">
+                <li class="o_nav_link b_nav_link b_shadow">
                     <a href="#">About</a>
                 </li>
-                <li class="o_nav_link b_nav_link">
+                <li class="o_nav_link b_nav_link b_shadow">
                     <a href="#">Blog</a>
-                </li>
+                </li> -->
             </ul>
         </nav>
-        <div class="o_nav_weather b_body">weather</div>
+        <div class="o_nav_weather b_shadow">
+            <div id="tempNode" class="o_nav_weather_temp b_greet b_bold"></div>
+            <div class="o_nav_weather_city b_body"></div>
+        </div>
     </div>
     <main class="c_body_wrap l_m0auto b_white">
-        <h1 class="c_body_time b_shadow">15:45</h1>
-        <div class="b_greet b_shadow">Good morning, rockstar.</div>
-        <div class="b_body c_body b_shadow">Daily positivity on this website.</div>
-        <div class="b_button b_black c_body_btn l_m0auto"> + Make Your Homescreen</div>
+        <h1 class="c_body_time b_shadow">
+            <span class="c_body_hours"></span><span class="c_body_clock">:</span><span class="c_body_mins"></span>
+        </h1>
+        <div class="b_greet b_shadow">Good <span class="c_body_greet"></span>, rockstar.</div>
+        <div class="b_body c_body_quote b_shadow"></div>
+        <div class="b_body c_author b_footer b_shadow"></div>
+        <div class="b_button b_black c_body_btn l_m0auto"> <span>Get inspired one more time</span></div>
     </main>
     <footer class="o_footer b_footer b_white">
-        <div class="o_footer_bg-info">background location / comment</div>
-        <div class="o_footer_quote">quote of the day</div>
+        <div class="o_footer_bg-info b_shadow">More photos on <a href="https://unsplash.com/">Unsplash.com</a></div>
+        <!-- <div class="o_footer_quote b_shadow">quote of the day</div> -->
         <ul class="o_footer_links">
-            <li class="o_footer_link"><a href="#">Git</a></li>
-            <li class="o_footer_link"><a href="#">Contact</a></li>
-            <li class="o_footer_link"><a href="#">Dribbble</a></li>
+            <li class="o_footer_link b_shadow"><a href="https://github.com/beseder668">Git</a></li>
+            <li class="o_footer_link b_shadow"><a href="mailto: sverdlov.gn@gmail.com">Contact</a></li>
+            <li class="o_footer_link b_shadow"><a href="https://dribbble.com/beseder87">Dribbble</a></li>
         </ul>
     </footer>
 </body>
+<script src="../chingu_soloProject/index.js"></script>
 </html>
