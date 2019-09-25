@@ -59,7 +59,7 @@
     left: -23px;
     width: 13px;
     height: 13px;
-    background: url('./../img/reload-icon.svg') center / contain no-repeat;
+    background: url('../img/reload-icon.svg') center / contain no-repeat;
 }
 
 @media only screen and (max-width: 350px) {
