@@ -1,4 +1,4 @@
-# Momento chrome app clone
+# Momentum Chrome App Clone
 
 
 ## Overview
@@ -15,9 +15,9 @@ Educational project aimed at building webpage that would be ideal for user's hom
   * Contains links to its author Dribbble, GitHub accounts
   
   
-## Running the project
+## Running The Project
 
-###### Live version
+###### Live Version
 [Momento chrome app clone](http://geranandpartners.com/chinge-pre-work/index.html)
 
 
@@ -31,7 +31,7 @@ Clone this project locally
   * [FavQs API](https://favqs.com)
   * Fonts from [Google Fonts](https://fonts.google.com/)
   
-## ToDo list
+## ToDo List
 - [ ] Display relevant icons for curent weather
 - [ ] Add more through local weather data 
 - [ ] Change 'rockstar' greeting to some random cool word that would change every 5 sec
