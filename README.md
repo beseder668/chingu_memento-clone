@@ -2,15 +2,15 @@
 
 
 ## Overview
-Educational project aimed at building webpage that would be ideal for user's homepage. The purpose of the app is to provinde user with basic infomation that would help him/her start the day. Current app uses various open API's to provide its core functional.
+Educational project aimed at building webpage that would be ideal for user's homepage. The purpose of the app is to provide user with basic information that would help him/her start the day. Current app uses various open API's to provide its core functional.
 
 
 ## Features
-  * Indetify user's location by his IP
+  * Identify user's location by his IP
   * Display local temperature in °C using Open Weather API
   * Identify and display local time 
   * Display greeting based on local time
-  * Dispaly inspirational background from "mountains" category using Unsplash Source API
+  * Display inspirational background from "mountains" category using Unsplash Source API
   * Display inspirational quote using FavQs API
   * Contains links to its author Dribbble, GitHub accounts
   
@@ -18,7 +18,7 @@ Educational project aimed at building webpage that would be ideal for user's hom
 ## Running The Project
 
 ###### Live Version
-[Momento chrome app clone](http://geranandpartners.com/chinge-pre-work/index.html)
+[Momentum chrome app clone](http://geranandpartners.com/chinge-pre-work/index.html)
 
 
 ###### From the repo:
@@ -32,8 +32,8 @@ Clone this project locally
   * Fonts from [Google Fonts](https://fonts.google.com/)
   
 ## ToDo List
-- [ ] Display relevant icons for curent weather
+- [ ] Display relevant icons for current weather
 - [ ] Add more through local weather data 
 - [ ] Change 'rockstar' greeting to some random cool word that would change every 5 sec
 - [ ] Use more various themes for backgrounds
-- [ ] Improve readibility for very bright backgrounds
+- [ ] Improve readability for very bright backgrounds
